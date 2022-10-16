@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6,{
+  font-weight: 700;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding-top: 120px;
+}
+
+.container{
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.logo{
+  margin: 0 auto;
+  max-width: 182px;
+}
+
+.header{
+  padding-top: 60px;
+}
+
+h1{
+  font-size: 50px;
+  width: 465px;
+  line-height: 70px;
+}
+
+.intro{
+  width: 423px;
+  font-size: 18px;
+}
+
+.button {
+  background: #FF6861;
+  border-radius: 100px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  padding: 22px 0;
+  font-weight: 700;
+  line-height: 1.19em;
+  display: block;
+  width: 216px;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  background: rgb(255, 173, 135);
+}
+
+.hero-text{
+  width: 465px;
+}
