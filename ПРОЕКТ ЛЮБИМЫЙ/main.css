@@ -1,0 +1,103 @@
+html {
+box-sizing: border-box;
+font-size: 16px;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+margin: 0;
+padding: 0;
+font-weight: normal;
+}
+
+ol, ul {
+list-style: none;
+}
+
+body{
+font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding-top: 40px;
+
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.ellipse {
+    position: absolute;
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 150px;
+    background: rgba(8, 81, 149, 0.62);
+    filter: blur(100px);
+}
+
+.ellipse1 {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 800px;
+    width: 400px;
+    height: 400px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    background: rgba(12, 120, 37, 0.62);
+    filter: blur(70px);
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 500px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 700;
+    width: 433px;
+}
+
+.img {
+    align-items: center;
+    box-shadow: 60px -16px #08519584;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-link {
+    margin: 0 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
